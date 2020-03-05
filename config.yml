@@ -1,0 +1,24 @@
+http:
+  address: ":3000"
+  readtimeout: 30
+  writetimeout: 30
+  idletimeout: 60
+  cookieexpiry: 30
+
+log:
+  level: "info"
+  format: "text"
+  filename: ""
+  maxsize: 500
+  maxage: 7
+  maxbackups: 5
+  localtime: false
+  compress: true
+  
+mongo:
+  host : "h" 
+  port: 27017
+  username: "un"
+  password: "pw" 
+  db : "db"
+  poolSize: 10
