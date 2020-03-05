@@ -27,24 +27,24 @@ Start the server by running:
 
 - API to create go routine:
 
-    - API: [localhost:3000/v1/_create?start=2&step=3](localhost:3000/v1/_create?start=2&step=3)
+    - API: ```localhost:3000/v1/_create?start=2&step=3```
     - Response will have ```ChannelID```
 
 - API to list all go routines:
 
-    - API: [localhost:3000/v1/_check](localhost:3000/v1/_check)
+    - API: ```localhost:3000/v1/_check```
 
 - API to find a go routines by ID:
 
-    - API: [localhost:3000/v1/_check?id=<ChannelID>](localhost:3000/v1/_check?id=<ChannelID>)
+    - API: ```localhost:3000/v1/_check?id=<ChannelID>```
     - Input: ```id = ChannelID```
 
 - API to pause a go routine:
 
-    - API: [localhost:3000/v1/_pause?id=<ChannelID>](localhost:3000/v1/_pause?id=<ChannelID>)
+    - API: ```localhost:3000/v1/_pause?id=<ChannelID>```
     - Input: ```id = ChannelID```
 
 - API to clear a go routine:
 
-    - API: [localhost:3000/v1/_clear?id=<ChannelID>](localhost:3000/v1/_clear?id=<ChannelID>)
+    - API: ```localhost:3000/v1/_clear?id=<ChannelID>```
     - Input: ```id = ChannelID```
